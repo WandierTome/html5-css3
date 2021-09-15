@@ -19,4 +19,4 @@ Aprendendo HTML5 e CSS3 passo a passo do zero!!
 ### Valiação W3C
 [html](http://validator.w3.org/)
 
-[css](igsaw.w3.org/css-validator/)
+[css](http://igsaw.w3.org/css-validator/)
