@@ -3,8 +3,22 @@
     @author Wandier de Souza Tome
     wad.tome@gmail.com
 */
+/* Importação (Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
 /* CSS Reset */
 *{margin: 0; border: 0; padding: 0;}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+/* Layout */
+.container{
+    margin: 0 auto;
+    background-color: #ff0;
+}
 
 /* Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
@@ -13,11 +27,19 @@
     body{
         background-color: #0ff;
     }
+    /* Layout */
+    .container{
+    max-width: 540px;
+    }
 }
 /* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 768px){
     body{
         background-color: #ff0;
+    }
+    /* Layout */
+    .container{
+        max-width: 720px;
     }
 }
 /* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -25,10 +47,18 @@
     body{
         background-color: #ff6600;
     }
+    /* Layout */
+    .container{
+        max-width: 960px;
+    }
 }
 /* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-@media(min-width: 576px){
+@media(min-width: 1200px){
     body{
         background-color: #f00;
+    }
+    /* Layout */
+    .container{
+        max-width: 1140px;
     }
 }
