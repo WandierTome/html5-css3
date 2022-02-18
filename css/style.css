@@ -22,6 +22,10 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.Flex2{
+    display: flex;
+    align-content: center;
+}
 .Botao{
     text-decoration: none;
     color: #fff;
@@ -55,7 +59,10 @@ header{
 }
 label{
     font-size: 3em;
-    padding: 15px;
+    position: fixed;
+    top: 5px;
+    right: 15px;
+    color: rgba(0, 0, 0, 0.5);
 }
 nav ul{
     list-style: none;
@@ -92,6 +99,30 @@ main h2 {
     font-size: 1em;
     margin: 20px 0px 50px 0px;
 }
+
+/* Sobre */
+#sobre{
+    padding: 50px 0px;
+    background: url(../img/background.png);
+    background-size: cover;
+}
+#destaqueSobre{
+    display: none;
+}
+#textoSobre{
+    color: #fff;
+    padding: 0px 10px;
+}
+#textoSobre h2{
+    margin-bottom: 10px;
+}
+.TopicosSobre{
+    margin-top: 20px;
+}
+.TopicosSobre img{
+    margin-right: 10px;
+}
+
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 576px){
     /* Layout */
