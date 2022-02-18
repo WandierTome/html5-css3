@@ -46,28 +46,7 @@ body{
     right: 10px;
     bottom: 10px;
 }
-/* Sobre */
-#sobre{
-    padding: 50px 0px;
-    background: url(../img/background.png);
-    background-size: cover;
-}
-#destaqueSobre{
-    display: none;
-}
-#textoSobre{
-    color: #fff;
-    padding: 0px 10px;
-}
-#textoSobre h2{
-    margin-bottom: 10px;
-}
-.TopicosSobre{
-    margin-top: 20px;
-}
-.TopicosSobre img{
-    margin-right: 10px;
-}
+
 /* Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 /* Cabeçalho */
 header{
@@ -108,11 +87,13 @@ nav ul li a{
     text-decoration: none;
     color: #fff;
 }
+/* Destaque */
 main{
     height: 75vh;
     color: #fff;
     background: url(../img/banner.jpg);
     background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -124,6 +105,29 @@ main h1 {
 main h2 {
     font-size: 1em;
     margin: 20px 0px 50px 0px;
+}
+/* Sobre */
+#sobre{
+    padding: 50px 0px;
+    background: url(../img/background.png);
+    background-size: cover;
+    background-position: center;
+}
+#destaqueSobre{
+    display: none;
+}
+#textoSobre{
+    color: #fff;
+    padding: 0px 10px;
+}
+#textoSobre h2{
+    margin-bottom: 10px;
+}
+.TopicosSobre{
+    margin-top: 20px;
+}
+.TopicosSobre img{
+    margin-right: 10px;
 }
 /* One Page */
 #onepage{
@@ -226,10 +230,24 @@ main h2 {
         color: #c00000;
     }
 
+    /* Sobre */
+    #sobre{
+        background-attachment: fixed;
+    }
+
+    #destaqueSobre{
+        display: inline;
+    }
+
     /* One Page*/
     .Flex3{
         flex-direction: row;
         align-items: center;
+    }
+
+    #destaqueSobre img{
+        border-radius: 50%;
+        margin-right: 50px;
     }
 
 }
